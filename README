@@ -2,6 +2,7 @@
  git add *
  git commit -am "First Commit T2080rdb uboot"
  git remote add origin https://github.com/fafactx/uboot-t2080.git
+ git remote rm origin
  git pull
  git push -u -f origin master
  git clone https://github.com/fafactx/uboot-t2080.git
